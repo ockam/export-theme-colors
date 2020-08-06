@@ -1,6 +1,6 @@
 {
   "name": "export-theme-colors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Export JS theme colors to CSS custom properties",
   "author": "pierre@ockam.studio",
   "main": "index.js",

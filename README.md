@@ -1,3 +1,7 @@
+This script will export UI library theme colors to CSS custom properties.
+
+Has been tested with TailwindCSS (tailwind.config.js) and Chakra UI (theme.js).
+
 Use `npm run start` or `node index.js` to run.
 
 If using npm with arguments, add `--` before arguments:
@@ -8,10 +12,10 @@ If using npm with arguments, add `--` before arguments:
 
 Arguments:
 
-- `--themeType`: _string_ (default: "tw". Possible values: "tw", "ck")
-- `--themeFile`: _string_ (default: type tw value)
-- `--themeColors`: _string_ (default: type tw value)
-- `--cssFile`: _string_ (default: "./custom-properties.css")
+- `--themeType`: _string_ `tw` | `ck` (default: "tw")
+- `--themeFile`: _string_ filename (default: "./tailwind.config.js")
+- `--themeColors`: _string_ theme object path (default: "theme.colors")
+- `--cssFile`: _string_ filename (default: "./custom-properties.css")
 - `--prefix`: _string_ (default: "")
 
 Aliases:
