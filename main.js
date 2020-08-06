@@ -45,7 +45,7 @@ switch (themeType) {
 
 try {
   import(themeFile).then(config => {
-    const colors = themeColors.split('.').reduce((o,i)=>o[i], config);
+    const colors = themeColors.split('.').reduce((o,i) => o[i], config);
 
     const parseColor = (colorName, value) => {
       const pfx = prefix ? `${prefix}-` : ``;
